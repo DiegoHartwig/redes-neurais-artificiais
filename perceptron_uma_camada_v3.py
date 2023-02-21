@@ -36,3 +36,8 @@ def treinar():
         print('Total de erros: ' + str(erroTotal)) 
 
 treinar()
+print('Ok, rede neural treinada.')
+print(calculaSaida(entradas[0]))
+print(calculaSaida(entradas[1]))
+print(calculaSaida(entradas[2]))
+print(calculaSaida(entradas[3]))
