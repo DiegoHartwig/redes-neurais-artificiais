@@ -4,18 +4,17 @@ Created on Tue Feb 21 13:31:21 2023
 
 @author: diego
 Treinamento da rede neural
-Operador lógico AND
+Operador lógico OR
 entrada | saida | resultado
 0       | 0     | 0
-0       | 1     | 0
-1       | 0     | 0
+0       | 1     | 1
+1       | 0     | 1
 1       | 1     | 1
-
 """
 import numpy as np
 
 entradas = np.array([[0,0],[0,1],[1,0],[1,1]])
-saidas = np.array([0, 0, 0, 1])
+saidas = np.array([0, 1, 1, 1])
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
